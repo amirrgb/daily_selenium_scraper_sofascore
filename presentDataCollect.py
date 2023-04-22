@@ -1,13 +1,16 @@
 import mysql.connector
 from datetime import datetime, timedelta
 import time
-global user;global password;global host;global database;global teamsDataTable;global faceMatchTable;global teamsLinkTable;global mainDataBase
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
 from selenium import webdriver
 
-#pinnig
+
+#need to initialize :
+#global user;global password;global host;global database;global teamsDataTable;global faceMatchTable;global teamsLinkTable;global mainDataBase
+
+#pinnig part
 
 
 def workOption(option):  # chromeDriverOptions
