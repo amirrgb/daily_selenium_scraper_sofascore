@@ -6,12 +6,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
 from selenium import webdriver
-user, password = 'root', '@Aa6660416404'
-host, database = 'localhost', 'primary_references_data'
-teamsDataTable,faceMatchTable,teamsLinkTable,mainDataBase ="teams_data","face_matches","teams_links","main_database"
-todayLeaguesPath="D://python/today.txt"
-executablePath="D://python/sofaWorker/Include/chromeDriver/chromeDriver.exe"
-
 
 #pinnig
 
